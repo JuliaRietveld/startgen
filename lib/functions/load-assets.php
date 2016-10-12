@@ -2,13 +2,14 @@
 /**
  * Asset loader handler.
  *
- * @package     KnowTheCode\Developers
+ *
+ * @package     startgen
  * @since       1.0.0
- * @author      hellofromTonya
- * @link        https://knowthecode.io
+ * @author      juliarietveld
+ * @link        http://juliarietveld.nl
  * @license     GNU General Public License 2.0+
  */
-namespace KnowTheCode\Developers;
+namespace Startgen\Developers;
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_assets' );
 /**
@@ -20,7 +21,13 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_assets' );
  */
 function enqueue_assets() {
 
-	wp_enqueue_style( CHILD_TEXT_DOMAIN . '-fonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700', array(), CHILD_THEME_VERSION );
+	// wp_enqueue_style( CHILD_TEXT_DOMAIN . '-fonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700', array(), CHILD_THEME_VERSION );
+		wp_enqueue_style(
+		CHILD_TEXT_DOMAIN . '-fonts',
+		'//fonts.googleapis.com/css?family=IM+Fell+Double+Pica:400,400italic|Source+Sans+Pro:300,300italic,400,400italic,600,600italic',
+		array(),
+		CHILD_THEME_VERSION
+	);
 	wp_enqueue_style( 'dashicons' );
 
 	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-responsive-menu', CHILD_URL . '/js/responsive-menu.js', array( 'jquery' ), CHILD_THEME_VERSION, true );

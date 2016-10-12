@@ -2,13 +2,13 @@
 /**
  * Adds the CSS from the Customizer options.
  *
- * @package     KnowTheCode\Developers
+ * @package     startgen
  * @since       1.0.0
- * @author      hellofromTonya
- * @link        https://knowthecode.io
+ * @author      juliarietveld
+ * @link        http://juliarietveld.nl
  * @license     GNU General Public License 2.0+
  */
-namespace KnowTheCode\Developers\Customizer;
+namespace Startgen\Customizer;
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\build_incline_css_from_customizer_settings' );
 /**

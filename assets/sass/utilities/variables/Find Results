@@ -1,0 +1,433 @@
+Searching 136 files for "rem"
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/package.json:
+   27      "gulp-sass-lint": "^1.2.0",
+   28      "gulp-sourcemaps": "^1.6.0",
+   29:     "sass-rem": "^1.2.2"
+   30    }
+   31  }
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/style.css:
+  284    font-family: "Source Sans Pro", sans-serif;
+  285    font-size: 20px;
+  287    -webkit-font-smoothing: antialiased;
+  288    font-weight: 400;
+  ...
+  299  
+  300  body > div {
+  301:   font-size: 2rem;
+  302  }
+  303  
+  304  @media screen and (max-width: 860px) {
+  305    body > div {
+  306:     font-size: 1.8rem;
+  307    }
+  308  }
+  ...
+  373    display: block;
+  374    font-size: 30px;
+  376    height: 0;
+  377    left: -20px;
+  ...
+  396  h1 {
+  397    font-size: 36px;
+  399  }
+  400  
+  401  h2 {
+  402    font-size: 30px;
+
+  404  }
+  405  
+  406  h3 {
+  407    font-size: 24px;
+  408:   font-size: 2.4rem;
+  409  }
+  410  
+  411  h4 {
+  412    font-size: 20px;
+  413:   font-size: 2rem;
+  414  }
+  415  
+  416  h5 {
+  417    font-size: 18px;
+  418:   font-size: 1.8rem;
+  419  }
+  420  
+  421  h6 {
+  422    font-size: 16px;
+  423:   font-size: 1.6rem;
+  424  }
+  425  
+  ...
+  452    color: #333;
+  453    font-size: 18px;
+  454:   font-size: 1.8rem;
+  455    font-weight: 400;
+  456    padding: 16px;
+  ...
+  489    cursor: pointer;
+  490    font-size: 16px;
+  491:   font-size: 1.6rem;
+  492    font-weight: 700;
+  493    padding: 16px 24px;
+  ...
+  745  .wp-caption-text {
+  746    font-size: 14px;
+  747:   font-size: 1.4rem;
+  748    font-weight: 600;
+  749    margin: 0;
+  ...
+ 1097  .site-title {
+ 1098    font-size: 30px;
+ 1099:   font-size: 3rem;
+ 1100    font-weight: 700;
+ 1101    line-height: 1.2;
+ ....
+ 1111  .site-description {
+ 1112    font-size: 16px;
+ 1113:   font-size: 1.6rem;
+ 1114    font-weight: 400;
+ 1115    line-height: 1.5;
+ ....
+ 1172    clear: both;
+ 1173    font-size: 16px;
+ 1174:   font-size: 1.6rem;
+ 1175    font-weight: 600;
+ 1176    line-height: 1;
+ ....
+ 1226    border-top: 0;
+ 1227    font-size: 14px;
+ 1228:   font-size: 1.4rem;
+ 1229    padding: 20px;
+ 1230    position: relative;
+ ....
+ 1333    background-color: #fff;
+ 1334    font-size: 16px;
+ 1335:   font-size: 1.6rem;
+ 1336    margin-bottom: 1px;
+ 1337    padding: 12px 30px;
+ ....
+ 1389    display: inline-block;
+ 1390    font-size: 16px;
+ 1391:   font-size: 1.6rem;
+ 1392    font-weight: 600;
+ 1393    padding: 8px 12px;
+ ....
+ 1486  p.entry-meta {
+ 1487    font-size: 16px;
+ 1488:   font-size: 1.6rem;
+ 1489    margin-bottom: 0;
+ 1490  }
+ ....
+ 1494  .entry-title {
+ 1495    font-size: 36px;
+ 1496:   font-size: 3.6rem;
+ 1497  }
+ 1498  
+ ....
+ 1558    background-color: #fff;
+ 1559    font-size: 18px;
+ 1560:   font-size: 1.8rem;
+ 1561    margin-bottom: 40px;
+ 1562    padding: 60px;
+ ....
+ 1583    background-color: #fff;
+ 1584    font-size: 16px;
+ 1585:   font-size: 1.6rem;
+ 1586    margin-bottom: 40px;
+ 1587  }
+ ....
+ 1652  .sidebar {
+ 1653    font-size: 16px;
+ 1654:   font-size: 1.6rem;
+ 1655    margin-bottom: 40px;
+ 1656  }
+ ....
+ 1710  .widget-title {
+ 1711    font-size: 18px;
+ 1712:   font-size: 1.8rem;
+ 1713    margin-bottom: 20px;
+ 1714  }
+ ....
+ 1736  .featured-content .entry-title {
+ 1737    font-size: 20px;
+ 1738:   font-size: 2rem;
+ 1739  }
+ 1740  
+ ....
+ 1784    background-color: #fff;
+ 1785    font-size: 18px;
+ 1786:   font-size: 1.8rem;
+ 1787    clear: both;
+ 1788    padding: 60px 0;
+ ....
+ 1843    border-top: 1px solid #eee;
+ 1844    font-size: 16px;
+ 1845:   font-size: 1.6rem;
+ 1846    line-height: 1;
+ 1847    padding: 60px 0;
+ ....
+ 1883  .enews-widget input {
+ 1884    font-size: 16px;
+ 1885:   font-size: 1.6rem;
+ 1886    margin-bottom: 16px;
+ 1887  }
+ ....
+ 1907    background-color: #ccc;
+ 1908    font-size: 18px;
+ 1909:   font-size: 1.8rem;
+ 1910    margin-bottom: 40px;
+ 1911    padding: 60px;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/style.min.css:
+   17  	License URI: http://www.opensource.org/licenses/gpl-license.php
+   18  	Text Domain: developers
+   19: */html{box-sizing:border-box;font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html,input[type=search]{box-sizing:border-box}*,:after,:before{box-sizing:inherit}.author-box:before,.clearfix:before,.entry-content:before,.entry:before,.footer-widgets:before,.nav-primary:before,.nav-secondary:before,.pagination:before,.site-container:before,.site-footer:before,.site-header:before,.site-inner:before,.widget:before,.wrap:before{content:" ";display:table}.author-box:after,.clearfix:after,.entry-content:after,.entry:after,.footer-widgets:after,.nav-primary:after,.nav-secondary:after,.pagination:after,.site-container:after,.site-footer:after,.site-header:after,.site-inner:after,.widget:after,.wrap:after{clear:both;content:" ";display:table}html{font-size:62.5%}body{background-color:#eee;color:#333;font-family:Source Sans Pro,sans-serif;font-size:20px;font-size:2rem;-webkit-font-smoothing:antialiased;font-weight:400;line-height:1.625;margin:0}@media screen and (max-width:860px){body{font-size:18px}}body>div{font-size:2rem}@media screen and (max-width:860px){body>div{font-size:1.8rem}}.button,.gallery img,a,button,input:focus,input[type=button],input[type=reset],input[type=submit],textarea:focus{transition:all .1s ease-in-out}a{color:#c3251d;text-decoration:underline}a:focus,a:hover{color:#333;text-decoration:none}p{margin:0 0 28px;padding:0}hr{border:0;border-collapse:collapse;border-top:1px solid #eee;clear:both;margin:1em 0}b,strong{font-weight:700}blockquote,cite,em,i{font-style:italic}ol,ul{margin:0;padding:0}li{list-style-type:none}blockquote{margin:40px}blockquote:before{content:"\201C";display:block;font-size:30px;font-size:3rem;height:0;left:-20px;position:relative;top:-10px}h1,h2,h3,h4,h5,h6{font-family:Source Sans Pro,sans-serif;font-weight:600;line-height:1.2;margin:0 0 10px}h1{font-size:36px;font-size:3.6rem}h2{font-size:30px;font-size:3rem}h3{font-size:24px;font-size:2.4rem}h4{font-size:20px;font-size:2rem}h5{font-size:18px;font-size:1.8rem}h6{font-size:16px;font-size:1.6rem}.wp-caption,embed,iframe,img,object,video{max-width:100%}img{height:auto}figure{margin:0}input,select,textarea{background-color:#fff;border:1px solid #ddd;color:#333;font-size:18px;font-size:1.8rem;font-weight:400;padding:16px;width:100%}input:focus,textarea:focus{border:1px solid #ddd;outline:none}input[type=checkbox],input[type=image],input[type=radio]{width:auto}::-moz-placeholder{color:#333;opacity:1}::-webkit-input-placeholder{color:#333}.button,button,input[type=button],input[type=reset],input[type=submit]{background-color:#333;border:0;color:#fff;cursor:pointer;font-size:16px;font-size:1.6rem;font-weight:700;padding:16px 24px;text-decoration:none;white-space:normal;width:auto}.button:focus,.button:hover,button:focus,button:hover,input:focus[type=button],input:focus[type=reset],input:focus[type=submit],input:hover[type=button],input:hover[type=reset],input:hover[type=submit]{background-color:#c3251d;color:#fff}.entry-content .button:focus,.entry-content .button:hover{color:#fff}.button{display:inline-block}a.button.small,button.small,input[type=button].small,input[type=reset].small,input[type=submit].small{padding:8px 16px}.site-container button:disabled,.site-container button:disabled:hover,.site-container input:disabled,.site-container input:disabled:hover,.site-container input[type=button]:disabled,.site-container input[type=button]:disabled:hover,.site-container input[type=reset]:disabled,.site-container input[type=reset]:disabled:hover,.site-container input[type=submit]:disabled,.site-container input[type=submit]:disabled:hover{background-color:#eee;border-width:0;color:#777;cursor:not-allowed}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-results-button{display:none}.gallery{overflow:hidden}.gallery-item{float:left;margin:0 0 28px;text-align:center}.gallery-columns-1 .gallery-item{width:100%}.gallery-columns-2 .gallery-item{width:50%}.gallery-columns-3 .gallery-item{width:33%}.gallery-columns-4 .gallery-item{width:25%}.gallery-columns-5 .gallery-item{width:20%}.gallery-columns-6 .gallery-item{width:16.6666%}.gallery-columns-7 .gallery-item{width:14.2857%}.gallery-columns-8 .gallery-item{width:12.5%}.gallery-columns-9 .gallery-item{width:11.1111%}.gallery-columns-2 .gallery-item:nth-child(2n+1),.gallery-columns-3 .gallery-item:nth-child(3n+1),.gallery-columns-4 .gallery-item:nth-child(4n+1),.gallery-columns-5 .gallery-item:nth-child(5n+1),.gallery-columns-6 .gallery-item:nth-child(6n+1),.gallery-columns-7 .gallery-item:nth-child(7n+1),.gallery-columns-8 .gallery-item:nth-child(8n+1),.gallery-columns-9 .gallery-item:nth-child(9n+1){clear:left}.gallery img{border:1px solid #eee;height:auto;padding:4px}.gallery img:focus,.gallery img:hover{border:1px solid #999}table{border-collapse:collapse;border-spacing:0;line-height:2;margin-bottom:40px;width:100%;word-break:break-word}tbody{border-bottom:1px solid #eee}td,th{text-align:left}td{border-top:1px solid #eee;padding:6px}th{font-weight:400;padding:0 6px}td:first-child,th:first-child{padding-left:0}.screen-reader-shortcut,.screen-reader-text,.screen-reader-text span{position:absolute!important;clip:rect(0,0,0,0);height:1px;width:1px;border:0;overflow:hidden}.genesis-nav-menu .search input[type=submit]:focus,.screen-reader-shortcut:focus,.screen-reader-text:focus,.widget_search input[type=submit]:focus{clip:auto!important;height:auto;width:auto;display:block;font-size:1em;font-weight:700;padding:15px 23px 14px;color:#333;background:#fff;z-index:100000;text-decoration:none;box-shadow:0 0 2px 2px rgba(0,0,0,.6)}.more-link{position:relative}a.aligncenter img{display:block;margin:0 auto}a.alignnone{display:inline-block}.alignleft{float:left;text-align:left}.alignright{float:right;text-align:right}a.alignleft,a.alignnone,a.alignright{max-width:100%}.aligncenter,img.centered{display:block;margin:0 auto 24px}.alignnone,img.alignnone{margin-bottom:12px}a.alignleft,img.alignleft{margin:0 24px 24px 0}.wp-caption.alignright,a.alignright,img.alignright{margin:0 0 24px 24px}.wp-caption.alignleft{margin:0 24px 24px 0}.wp-caption-text{font-size:14px;font-size:1.4rem;font-weight:600;margin:0;text-align:center}.entry-content p.wp-caption-text{margin-bottom:0}.entry-content .wp-audio-shortcode,.entry-content .wp-playlist,.entry-content .wp-video{margin:0 0 28px}.site-inner,.wrap{margin:0 auto;max-width:1280px}@media screen and (max-width:1340px){.site-inner,.wrap{max-width:1140px}}@media screen and (max-width:1200px){.site-inner,.wrap{max-width:960px}}@media screen and (max-width:1023px){.site-inner,.wrap{max-width:800px}}.site-inner{clear:both;padding-top:40px;word-wrap:break-word}@media screen and (max-width:860px){.site-inner{padding:5% 5% 0}}@media screen and (max-width:860px){.wrap{padding-left:5%;padding-right:5%}}.landing-page .site-inner{max-width:800px}@media only screen and (max-width:1023px){.content,.content-sidebar-sidebar .content,.content-sidebar-sidebar .content-sidebar-wrap,.sidebar-content-sidebar .content,.sidebar-content-sidebar .content-sidebar-wrap,.sidebar-primary,.sidebar-secondary,.sidebar-sidebar-content .content,.sidebar-sidebar-content .content-sidebar-wrap{width:100%}}.content-sidebar-sidebar .content-sidebar-wrap,.sidebar-content-sidebar .content-sidebar-wrap,.sidebar-sidebar-content .content-sidebar-wrap{width:1060px}@media screen and (max-width:1340px){.content-sidebar-sidebar .content-sidebar-wrap,.sidebar-content-sidebar .content-sidebar-wrap,.sidebar-sidebar-content .content-sidebar-wrap{width:920px}}@media screen and (max-width:1200px){.content-sidebar-sidebar .content-sidebar-wrap,.sidebar-content-sidebar .content-sidebar-wrap,.sidebar-sidebar-content .content-sidebar-wrap{width:740px}}.content-sidebar-sidebar .content-sidebar-wrap{float:left}.content,.sidebar-content-sidebar .content-sidebar-wrap,.sidebar-sidebar-content .content-sidebar-wrap{float:right}.content{width:880px}@media screen and (max-width:1340px){.content{width:800px}}@media screen and (max-width:1200px){.content{width:620px}}.content-sidebar-sidebar .content,.sidebar-content-sidebar .content,.sidebar-sidebar-content .content{width:660px}@media screen and (max-width:1340px){.content-sidebar-sidebar .content,.sidebar-content-sidebar .content,.sidebar-sidebar-content .content{width:580px}}@media screen and (max-width:1200px){.content-sidebar-sidebar .content,.sidebar-content-sidebar .content,.sidebar-sidebar-content .content{width:400px}}.content-sidebar-sidebar .content,.content-sidebar .content,.sidebar-content-sidebar .content{float:left}.full-width-content .content{width:100%}.sidebar-primary{float:right;width:360px}@media screen and (max-width:1340px){.sidebar-primary{width:300px}}.sidebar-content .sidebar-primary,.sidebar-sidebar-content .sidebar-primary{float:left}.sidebar-secondary{float:left;width:180px}.content-sidebar-sidebar .sidebar-secondary{float:right}.five-sixths,.four-sixths,.one-fourth,.one-half,.one-sixth,.one-third,.three-fourths,.three-sixths,.two-fourths,.two-sixths,.two-thirds{float:left;margin-left:2.564102564102564%}.one-half,.three-sixths,.two-fourths{width:48.717948717948715%}.one-third,.two-sixths{width:31.623931623931625%}.four-sixths,.two-thirds{width:65.81196581196582%}.one-fourth{width:23.076923076923077%}.three-fourths{width:74.35897435897436%}.one-sixth{width:14.52991452991453%}.five-sixths{width:82.90598290598291%}.first{clear:both;margin-left:0}@media screen and (max-width:860px){.five-sixths,.four-sixths,.one-fourth,.one-half,.one-sixth,.one-third,.three-fourths,.three-sixths,.two-fourths,.two-sixths,.two-thirds{margin:0;width:100%}}.avatar{border-radius:50%;float:left}.alignleft .avatar{margin-right:24px}.alignright .avatar{margin-left:24px}.genesis-skip-link{margin:0}.genesis-skip-link li{height:0;width:0;list-style:none}:focus{color:#333;outline:1px solid #ccc}.site-header{background-color:#fff}.site-header>.wrap{padding:20px 0}@media only screen and (max-width:1023px){.site-header .wrap{padding-left:5%;padding-right:5%}}.title-area{float:left;padding:10px 0;width:300px}@media only screen and (max-width:1023px){.title-area{width:100%;text-align:center}}.header-full-width .title-area{float:none;width:100%}@media only screen and (max-width:1023px){.site-description,.site-header .title-area,.site-header .widget-area,.site-title{text-align:center}}.site-title{font-size:30px;font-size:3rem;font-weight:700;line-height:1.2}.site-title a,.site-title a:focus,.site-title a:hover{color:#333;text-decoration:none}.site-description{font-size:16px;font-size:1.6rem;font-weight:400;line-height:1.5}.site-description,.site-title{margin-bottom:0}.header-image .title-area{margin:0 auto;max-width:300px;padding:0}@media only screen and (max-width:1023px){.header-image .title-area{float:none}}.header-image .site-title>a{background-position:50%!important;background-size:contain!important;float:left;min-height:80px;width:100%}.header-image .site-description,.header-image .site-title{display:block;text-indent:-9999px}.site-header .widget-area{float:right;text-align:right;width:800px}@media only screen and (max-width:1200px){.site-header .widget-area{width:620px}}@media only screen and (max-width:1023px){.site-header .widget-area{width:100%}}.genesis-nav-menu{clear:both;font-size:16px;font-size:1.6rem;font-weight:600;line-height:1;width:100%}@media only screen and (max-width:1023px){.genesis-nav-menu{text-align:center}.genesis-nav-menu .genesis-nav-menu li,.site-header ul .genesis-nav-menu{float:none}}.genesis-nav-menu .menu-item{display:inline-block;margin-bottom:0;padding-bottom:0;text-align:left}.genesis-nav-menu a{color:#333;text-decoration:none;display:block;padding:32px 20px}.genesis-nav-menu .current-menu-item>a,.genesis-nav-menu .sub-menu .current-menu-item>a:focus,.genesis-nav-menu .sub-menu .current-menu-item>a:hover,.genesis-nav-menu a:focus,.genesis-nav-menu a:hover{color:#c3251d;text-decoration:underline}.genesis-nav-menu .sub-menu{border-top:1px solid #eee;left:-9999px;opacity:0;position:absolute;transition:opacity .4s ease-in-out;width:200px;z-index:99}.genesis-nav-menu .sub-menu a{background-color:#fff;border:1px solid #eee;border-top:0;font-size:14px;font-size:1.4rem;padding:20px;position:relative;width:200px;word-wrap:break-word}.genesis-nav-menu .sub-menu .sub-menu{margin:-56px 0 0 199px}.genesis-nav-menu .menu-item:hover{position:static}.genesis-nav-menu .menu-item:hover>.sub-menu{left:auto;opacity:1}.genesis-nav-menu>.first>a{padding-left:0}.genesis-nav-menu>.last>a{padding-right:0}.genesis-nav-menu>.right{float:right}.menu .menu-item:focus{position:static}.menu .menu-item.sfHover>ul.sub-menu,.menu .menu-item>a:focus+ul.sub-menu{left:auto;opacity:1}.menu-toggle,.sub-menu-toggle{display:none;visibility:hidden}@media only screen and (max-width:1023px){.menu-toggle,.sub-menu-toggle{border-width:0;background-color:#fff;color:#333;display:block;margin:0 auto;overflow:hidden;text-align:center;visibility:visible}}@media only screen and (max-width:1023px){.sub-menu-toggle{float:right;padding:10px;position:absolute;right:0;top:0;z-index:100}.sub-menu-toggle:focus,.sub-menu-toggle:hover{border-width:0}.sub-menu-toggle:before{display:inline-block;text-rendering:auto;transform:translate(0)}.sub-menu-toggle.activated:before{content:"\f142"}.menu-toggle{border-top:1px solid #eee;line-height:20px;position:relative;right:0;z-index:1000;width:100%}.site-header .menu-toggle{border:0}.menu-toggle.activated:before,.menu-toggle:before{margin-right:10px;text-rendering:auto;transform:translate(0)}}.breadcrumb{background-color:#fff;font-size:16px;font-size:1.6rem;margin-bottom:1px;padding:12px 30px}.site-header .genesis-nav-menu li li{margin-left:0}.nav-primary,.nav-secondary{background-color:#fff;border-top:1px solid #eee}.pagination{clear:both;margin:40px 0}@media only screen and (max-width:860px){.pagination{margin:5% auto}}.adjacent-entry-pagination{margin-bottom:0}.archive-pagination li{display:inline}@media only screen and (max-width:860px){.archive-pagination li a{margin-bottom:4px}}.archive-pagination a{background-color:#fff;color:#333;cursor:pointer;display:inline-block;font-size:16px;font-size:1.6rem;font-weight:600;padding:8px 12px;text-decoration:none}.active .archive-pagination a,.archive-pagination a:focus,.archive-pagination a:hover{background-color:#c3251d;color:#fff}.site-footer .genesis-nav-menu{padding-bottom:20px}.site-footer .genesis-nav-menu a{padding:0 20px 10px}@media only screen and (max-width:1023px){.js .genesis-nav-menu .sub-menu,.js .genesis-nav-menu .sub-menu a{width:100%}.js .genesis-nav-menu .menu-item:hover{position:relative}.js .genesis-nav-menu .menu-item>a:focus ul.sub-menu,.js .genesis-nav-menu .menu-item>a:focus ul.sub-menu .sub-menu{left:0;margin-left:0}.js .genesis-nav-menu>.menu-item-has-children>a:after{content:none}.js .genesis-nav-menu .sub-menu{border:none;clear:both;display:none;margin:0;opacity:1;padding-left:15px;position:static;width:100%}.js .genesis-nav-menu .sub-menu .sub-menu{margin:0}.js .nav-primary .genesis-nav-menu .menu-item,.js .site-header .genesis-nav-menu .menu-item{display:block;float:none;margin:1px 0;position:relative;text-align:left}.js .nav-primary .genesis-nav-menu .menu-item a,.js .site-header .genesis-nav-menu .menu-item a{border:none;padding:12px 0;width:100%}.js .menu-toggle:focus,.js .menu-toggle:hover,.js .nav-primary,.js nav button:focus,.js nav button:hover{background-color:#fff}.js .menu-toggle:hover,.js .nav-primary,.js nav button:hover{color:#000}.js .menu-toggle:focus,.js nav button:focus{color:#c3251d}}.entry{background-color:#fff;margin-bottom:40px;padding:70px 80px}@media only screen and (max-width:860px){.entry{padding:30px;margin-bottom:5%}}p.entry-meta{font-size:16px;font-size:1.6rem;margin-bottom:0}.entry-title{font-size:36px;font-size:3.6rem}.entry-title a{color:#333;text-decoration:none}.entry-title a:focus,.entry-title a:hover{color:#c3251d}.entry-header .entry-meta{margin-bottom:24px}.entry-comments-link:before{content:"\2014";margin:0 6px 0 2px}.entry-content ol,.entry-content ul{margin-bottom:28px;margin-left:40px}.entry-content ol>li{list-style-type:decimal}.entry-content ul>li{list-style-type:disc}.entry-content ol ol,.entry-content ul ul{margin-bottom:0}.entry-content code{background-color:#eee;color:#333}.entry-footer .entry-meta{border-top:1px solid #eee;padding-top:24px;margin-bottom:0}.entry-categories,.entry-tags{display:block}.after-entry{background-color:#fff;font-size:18px;font-size:1.8rem;margin-bottom:40px;padding:60px}@media screen and (max-width:860px){.after-entry{padding:30px;margin-bottom:5%}}.author-box .avatar{margin-right:24px}.comment-respond,.entry-comments,.entry-pings{background-color:#fff;font-size:16px;font-size:1.6rem;margin-bottom:40px}@media only screen and (max-width:860px){.comment-respond,.entry-comments,.entry-pings{padding:30px;margin-bottom:5%}}.comment-respond,.entry-pings{padding:60px 60px 32px}.entry-comments{padding:60px}.entry-pings .reply{display:none}.comment-list li{padding:40px 0 0 30px}.comment-list .depth-1{padding-left:0}.comment-header{margin-bottom:30px}.comment-header p{margin-bottom:0}.comment .avatar{margin:0 16px 24px 0}.comment-content{clear:both}.comment-content ul>li{list-style-type:disc}.comment-respond label{display:block;margin-right:12px}.comment-respond input[type=email],.comment-respond input[type=text],.comment-respond input[type=url]{width:50%}.sidebar{font-size:16px;font-size:1.6rem;margin-bottom:40px}.sidebar .widget{background-color:#fff;padding:40px}.widget{margin-bottom:40px;word-wrap:break-word}.widget ul>li{margin-bottom:10px;padding-bottom:10px}.widget ul>li:last-of-type{padding-bottom:0}.widget ol>li{list-style-position:inside;list-style-type:decimal;padding-left:20px;text-indent:-20px}.widget li li{border:0;margin:0 0 0 30px;padding:0}.widget-area .widget:last-of-type,.widget p:last-child,.widget ul>li:last-of-type{margin-bottom:0}@media only screen and (max-width:860px){.sidebar .widget{padding:30px;margin-bottom:5%}}.sidebar .widget-title a{color:#333;text-decoration:none}.widget-title{font-size:18px;font-size:1.8rem;margin-bottom:20px}.widget_calendar table{width:100%}.widget_calendar td,.widget_calendar th{text-align:center}.featured-content .entry{background:none;padding:0}.featured-content .entry:last-of-type{margin-bottom:0}.featured-content .entry-title{font-size:20px;font-size:2rem}.search-form{overflow:hidden}.entry-content .search-form,.site-header .search-form{margin-bottom:40px;width:50%}.site-header .search-form{float:right;margin:12px auto 0}@media only screen and (max-width:1023px){.site-header .search-form{float:none;margin:16px auto}}.post-password-form input[type=submit],.search-form input[type=submit]{margin-top:10px}.genesis-nav-menu .search input[type=submit],.widget_search input[type=submit]{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;padding:0;position:absolute;width:1px}.footer-widgets{background-color:#fff;font-size:18px;font-size:1.8rem;clear:both;padding:60px 0}.footer-widgets-1,.footer-widgets-2,.footer-widgets-3{width:380px}@media only screen and (max-width:1200px){.footer-widgets-1,.footer-widgets-2,.footer-widgets-3{width:300px}}@media only screen and (max-width:1023px){.footer-widgets-1,.footer-widgets-2,.footer-widgets-3{width:100%}}.footer-widgets-1{margin-right:70px}@media only screen and (max-width:1200px){.footer-widgets-1{margin-right:30px}}.footer-widgets-1,.footer-widgets-2{float:left}@media only screen and (max-width:1023px){.footer-widgets-1,.footer-widgets-2{margin:0 auto 40px}}.footer-widgets-3{float:right}.site-footer{background-color:#fff;border-top:1px solid #eee;font-size:16px;font-size:1.6rem;line-height:1;padding:60px 0;text-align:center}.site-footer p{margin-bottom:0}.sidebar .enews-widget{background-color:#333}.sidebar .enews-widget,.sidebar .enews-widget .widget-title{color:#fff}.sidebar .enews-widget input,.sidebar .enews-widget input:focus{border:1px solid #333}.sidebar .enews-widget input[type=submit]{background-color:#c3251d;color:#fff}.sidebar .enews-widget input:focus[type=submit],.sidebar .enews-widget input:hover[type=submit]{background-color:#fff;color:#c3251d}.enews-widget input{font-size:16px;font-size:1.6rem;margin-bottom:16px}.enews-widget input[type=submit]{margin:0;width:100%}.enews form+p{margin-top:24px}#wpstats{display:none}.archive-description{background-color:#ccc;font-size:18px;font-size:1.8rem;margin-bottom:40px;padding:60px}.archive-description p:last-child{margin-bottom:0}@media screen and (max-width:860px){.archive-description{padding:30px;margin-bottom:5%}}.archive-description .entry-title,.archive-title{font-size:20px}
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/js/responsive-menu.js:
+   67  			$( '.nav-header' ).show();
+   68  			$( '.nav-primary ul.genesis-nav-menu > li.moved-item' ).appendTo( '.nav-header .menu' );
+   69: 			$( '.nav-header .menu > li' ).removeClass( 'moved-item' );
+   70  		}
+   71  	}
+   ..
+  105  		$this.next( '.sub-menu' ).slideToggle( 'fast' );
+  106  
+  107: 		others.find( '.' + subMenuButtonClass ).removeClass( 'activated' ).attr( 'aria-pressed', 'false' );
+  108  		others.find( '.sub-menu' ).slideUp( 'fast' );
+  109  
+  ...
+  150  		}
+  151  		$( '.menu-toggle, .sub-menu-toggle' )
+  152: 			.removeClass( 'activated' )
+  153  			.attr( 'aria-expanded', false )
+  154  			.attr( 'aria-pressed', false );
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/style.scss:
+   20  @import 'bourbon';
+   21  @import 'neat';
+   22: @import '../../node_modules/sass-rem/rem';
+   23  
+   24  @import 'utilities/index';
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/base/common/_audio-video.scss:
+    9  .wp-caption-text {
+   10    font-size: 14px;
+   11:   font-size: 1.4rem;
+   12    font-weight: 600;
+   13    margin: 0;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/base/elements/_blockquote.scss:
+    5      content: "\201C";
+    6      display: block;
+    7:     @include rem( font-size, $blockquote--font-size );
+    8      height: 0;
+    9      left: -20px;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/base/elements/_body.scss:
+    8    color: $base__color;
+    9    font-family: $base--font-family;
+   10:   @include rem( font-size, $base--font-size );
+   11    -webkit-font-smoothing: antialiased;
+   12    font-weight: 400;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/base/elements/_forms.scss:
+    8    border: 1px solid $input--border-color;
+    9    color: $input--color;
+   10:   @include rem( font-size, $input--font-size );
+   11    font-weight: 400;
+   12    padding: 16px;
+   ..
+   44    color: $button--color;
+   45    cursor: pointer;
+   46:   @include rem( font-size, $button--font-size );
+   47    font-weight: 700;
+   48    padding: 16px 24px;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/base/elements/_headings.scss:
+   15  
+   16  h1 {
+   17:   @include rem( font-size, $h1--font-size );
+   18  }
+   19  
+   20  h2 {
+   21:   @include rem( font-size, $h2--font-size );
+   22  }
+   23  
+   24  h3 {
+   25:   @include rem( font-size, $h3--font-size );
+   26  }
+   27  
+   28  h4 {
+   29:   @include rem( font-size, $h4--font-size );
+   30  }
+   31  
+   32  h5 {
+   33:   @include rem( font-size, $h5--font-size );
+   34  }
+   35  
+   36  h6 {
+   37:   @include rem( font-size, $h6--font-size );
+   38  }
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/after-entry/_base.scss:
+    1  .after-entry {
+    2    background-color: $after-entry--background-color;
+    3:   @include rem( font-size, $after-entry--font-size );
+    4    margin-bottom: 40px;
+    5    padding: 60px;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/author-box/_base.scss:
+    1  .author-box {
+    2    background-color: $author-box--background-color;
+    3:   @include rem( font-size, $author-box--font-size );
+    4    margin-bottom: 40px;
+    5    padding: 60px;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/comments/_base.scss:
+    7  .entry-pings {
+    8    background-color: $comment--background-color;
+    9:   @include rem( font-size, $comments--font-size );
+   10    margin-bottom: 40px;
+   11  
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/content/_entry-meta.scss:
+    1  p.entry-meta {
+    2:   @include rem( font-size, $entry-meta--font-size );
+    3    margin-bottom: 0;
+    4  }
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/content/entry-footer/_entry-meta.scss:
+    8      padding-top: 24px;
+    9      margin-bottom: 0;
+   10:     //@include rem( font-size, $entry-footer__entry-meta--font-size );
+   11    }
+   12  }
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/content/entry-header/_entry-meta.scss:
+    2    .entry-meta {
+    3      margin-bottom: 24px;
+    4:     //@include rem( font-size, $entry-header__entry-meta--font-size );
+    5    }
+    6  }
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/content/entry-header/_entry-title.scss:
+    4  
+    5  .entry-title {
+    6:   @include rem( font-size, $entry-title--font-size );
+    7  
+    8    a {
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/footer/_footer-widgets.scss:
+    4  .footer-widgets {
+    5    background-color: $footer-widgets--background-color;
+    6:   @include rem( font-size, $footer-widgets--font-size );
+    7    clear: both;
+    8    padding: 60px 0;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/footer/_site-footer.scss:
+    5    background-color: $siteFooter--background-color;
+    6    border-top: 1px solid $site-footer--border-color;
+    7:   @include rem( font-size, $site-footer--font-size );
+    8    line-height: 1;
+    9    padding: 60px 0;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/header/title-area/_site-description.scss:
+    4  
+    5  .site-description {
+    6:   @include rem( font-size, $site-description--font-size );
+    7    font-weight: 400;
+    8    line-height: 1.5;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/header/title-area/_site-title.scss:
+    4  
+    5  .site-title {
+    6:   @include rem( font-size, $site-title--font-size );
+    7    font-weight: 700;
+    8    line-height: 1.2;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/navigation/_base.scss:
+    5  .genesis-nav-menu {
+    6    clear: both;
+    7:   @include rem( font-size, $nav--font-size );
+    8    font-weight: 600;
+    9    line-height: 1;
+   ..
+   55        border: 1px solid $submenu--border-color;
+   56        border-top: 0;
+   57:       @include rem( font-size, $submenu--font-size );
+   58        padding: 20px;
+   59        position: relative;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/navigation/_breadcrumbs.scss:
+    4  .breadcrumb {
+    5    background-color: $breadcrumbs--background-color;
+    6:   @include rem( font-size, $breadcrumbs--font-size );
+    7    margin-bottom: 1px;
+    8    padding: 12px 30px;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/navigation/_pagination.scss:
+   31      cursor: pointer;
+   32      display: inline-block;
+   33:     @include rem( font-size,$archive-pagination--font-size);
+   34      font-weight: 600;
+   35      padding: 8px 12px;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/sidebars/_base.scss:
+    1  .sidebar {
+    2    font-size: 16px;
+    3:   font-size: 1.6rem;
+    4    margin-bottom: 40px;
+    5  
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/widgets/_featured-content.scss:
+   13  
+   14    .entry-title {
+   15:     @include rem( font-size, $featured-content__entry-title--font-size );
+   16    }
+   17  }
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/components/widgets/_widget-title.scss:
+    9  
+   10  .widget-title {
+   11:   @include rem( font-size, $widget-title--font-size );
+   12    margin-bottom: 20px;
+   13  }
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/plugins/_enews-extended.scss:
+   27  .enews-widget {
+   28    input {
+   29:     @include rem( font-size, $enews--font-size );
+   30      margin-bottom: 16px;
+   31  
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/utilities/variables/_typography.scss:
+    8  $base--font-size: 20px;
+    9  $base--font-size--small-screen: 18px;
+   10: $base__div--font-size: 2rem;
+   11: $base__div--font-size--small-screen: 1.8rem;
+   12  $base--line-height: 1.625;
+   13  
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/assets/sass/views/archive/_description.scss:
+    2  .archive-description {
+    3    background-color: $archive-description--background-color;
+    4:   @include rem( font-size, $archive-description--font-size );
+    5    margin-bottom: 40px;
+    6    padding: 60px;
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/lib/setup.php:
+   59  			'drop-down-menu',
+   60  			'headings',
+   61: 			'rems',
+   62  			'search-form',
+   63  			'skip-links'
+
+/Applications/MAMP/htdocs/startgen/wp-content/themes/Starter/lib/structure/menu.php:
+   19   */
+   20  function unregister_menu_callbacks() {
+   21: 	remove_action( 'genesis_after_header', 'genesis_do_subnav' );
+   22  }
+   23  
+
+101 matches across 32 files

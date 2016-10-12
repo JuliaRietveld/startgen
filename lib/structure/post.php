@@ -2,13 +2,13 @@
 /**
  * Description
  *
- * @package     KnowTheCode\Developers
+ * @package     startgen
  * @since       1.0.0
- * @author      hellofromTonya
- * @link        https://knowthecode.io
+ * @author      juliarietveld
+ * @link        http://juliarietveld.nl
  * @license     GNU General Public License 2.0+
  */
-namespace KnowTheCode\Developers;
+namespace Startgen\Developers;
 
 /**
  * Unregister post callbacks.

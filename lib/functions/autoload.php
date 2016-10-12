@@ -10,13 +10,14 @@
  * go into a plugin and not in your theme.  If you put them here, I want you to picture me shaking my head back and
  * forth.  Come on....I taught you better than that.
  *
- * @package     KnowTheCode\Developers
+ *
+ * @package     startgen
  * @since       1.0.0
- * @author      hellofromTonya
- * @link        https://knowthecode.io
+ * @author      juliarietveld
+ * @link        http://juliarietveld.nl
  * @license     GNU General Public License 2.0+
  */
-namespace KnowTheCode\Developers;
+namespace Startgen\Developers;
 
 /**
  * Loads non admin files.
@@ -33,13 +34,14 @@ function load_nonadmin_files() {
 		'functions/formatting.php',
 		'functions/load-assets.php',
 		'functions/markup.php',
-//		'structure/archive.php',
+		'structure/archive.php',
+		'structure/hero-image.php',
 		'structure/comments.php',
-//		'structure/footer.php',
-//		'structure/header.php',
+		'structure/footer.php',
+		'structure/header.php',
 		'structure/menu.php',
 		'structure/post.php',
-//		'structure/sidebar.php',
+		'structure/sidebar.php',
 		'components/customizer/customizer.php',
 	);
 

@@ -2,13 +2,13 @@
 /**
  * Description
  *
- * @package     KnowTheCode\Developers
+ * @package     startgen
  * @since       1.0.0
- * @author      hellofromTonya
- * @link        https://knowthecode.io
+ * @author      juliarietveld
+ * @link        http://juliarietveld.nl
  * @license     GNU General Public License 2.0+
  */
-namespace KnowTheCode\Developers;
+namespace Startgen\Developers;
 
 add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme' );
 /**
@@ -25,6 +25,11 @@ function setup_child_theme() {
 
 	adds_theme_supports();
 	adds_new_image_sizes();
+
+	unregister_sidebar( 'header-right' );
+	remove_action( 'genesis_after_header', 'genesis_do_nav' );
+	add_action( 'genesis_before_header', 'genesis_do_nav', 9 );
+	add_action( 'genesis_after_header', 'genesis_do_subnav' );
 }
 
 /**
@@ -160,3 +165,5 @@ function get_theme_settings_defaults() {
 		'site_layout'               => 'content-sidebar',
 	);
 }
+
+
