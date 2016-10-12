@@ -8,7 +8,7 @@
  * @link        http://juliarietveld.nl
  * @license     GNU General Public License 2.0+
  */
-namespace KnowTheCode\Developers;
+namespace Startgen\Developers;
 
 include_once( 'lib/init.php' );
 
